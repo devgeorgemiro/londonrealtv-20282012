@@ -88,7 +88,7 @@ appTop.conn = {
 			var n = d.getMilliseconds();
 
 			jQuery('<iframe>', {
-			   src: jQuery('#online').data('iframe') + '&appp_bypass=false&' + n,
+			   src: jQuery('#online').data('iframe'),
 			   id:  'myApp',
 			   frameborder: 0,
 			   scrolling: 'yes',
