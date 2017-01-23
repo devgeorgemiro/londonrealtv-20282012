@@ -91,7 +91,7 @@ appTop.conn = {
 			   src: jQuery('#online').data('iframe') + '&appp_bypass=false&' + n,
 			   id:  'myApp',
 			   frameborder: 0,
-			   scrolling: 'no',
+			   scrolling: 'yes',
 			   allowfullscreen: '',
 			   }).appendTo('#online');
 		}
